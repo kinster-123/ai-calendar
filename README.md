@@ -45,7 +45,7 @@ ai_calendar/
 │
 ├─ event_extractor.py      # 主程序：解析文本并确认添加
 ├─ calendar_google.py      # Google Calendar API 封装
-├─ time_parser.py          # 时间解析与规范化逻辑
+├─ calendar_writer.py      # 生成 ics 文件
 ├─ .gitignore              # Git 忽略规则（含密钥）
 ├─ README.md               # 项目说明
 └─ .venv/                  # Python 虚拟环境（不提交）
@@ -60,7 +60,7 @@ ai_calendar/
 ### 1️⃣ 克隆项目
 
 ```bash
-git clone https://github.com/你的用户名/ai-calendar.git
+git clone https://github.com/kinster-123/ai-calendar.git
 cd ai-calendar
 ```
 
